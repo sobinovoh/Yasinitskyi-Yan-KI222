@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1677068199 source:d:\bmtp\yasinitskiy_task\main.cpp
+	<iostream>
+	<cmath>
+	<clocale>
+	"ModulesYasinitskiy.h"
+

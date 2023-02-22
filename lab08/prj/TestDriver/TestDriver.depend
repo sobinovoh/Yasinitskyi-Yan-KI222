@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1677067528 source:d:\bmtp\testdriver\main.cpp
+	"ModulesYasinitskiy.h"
+	<iostream>
+	<clocale>
+	<limits>
+
+1677065589 d:\bmtp\testdriver\modulesyasinitskiy.h
+	<cmath>
+

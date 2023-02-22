@@ -13,22 +13,22 @@ int main() {
 
   cout << "\u00A9 Yasinitskiy Yan" << endl;
 
-  cout << "¬вед≥ть x: ";
+  cout << "x: ";
   cin >> x;
-  cout << "¬вед≥ть y: ";
+  cout << "y: ";
   cin >> y;
-  cout << "¬вед≥ть z: ";
+  cout << "z: ";
   cin >> z;
-  cout << "¬вед≥ть a: ";
+  cout << "a: ";
   cin >> a;
-  cout << "¬вед≥ть b: ";
+  cout << "b: ";
   cin >> b;
 
   cout << boolalpha << (a + 1 > abs(b - 2)) << endl;
 
-  cout << "x = " << dec << x << ", у ш≥стнадц€тков≥й систем≥ численн€: " << hex << x << endl;
-  cout << "y = " << dec << y << ", у ш≥стнадц€тков≥й систем≥ численн€: " << hex << y << endl;
-  cout << "z = " << dec << z << ", у ш≥стнадц€тков≥й систем≥ численн€: " << hex << z << endl;
+  cout << "x = " << dec << x << ",: " << hex << x << endl;
+  cout << "y = " << dec << y << ", : " << hex << y << endl;
+  cout << "z = " << dec << z << ", : " << hex << z << endl;
 
   cout << "s = " << s_calculation(x, y, z) << endl;
 }

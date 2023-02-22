@@ -9,7 +9,7 @@ bool test(int x, int y, int z, float s) {
   if ((s != NAN && s_calculation(x, y, z) == s) || (isnan(s) && isnan(s_calculation(x, y, z))))
     return true;
   else
-    cout << "" << s << "" << s_calculation(x, y, z) << endl;
+    cout << " Очікуваний результат: " << s << " Отриманий результат: " << s_calculation(x, y, z) << endl;
     return false;
 }
 

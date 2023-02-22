@@ -13,22 +13,22 @@ int main() {
 
   cout << "\u00A9 Yasinitskiy Yan" << endl;
 
-  cout << ;
+  cout << " Введіть x: ";
   cin >> x;
-  cout << ;
+  cout << " Введіть y: ";
   cin >> y;
-  cout << ;
+  cout << " Введіть z: ";
   cin >> z;
-  cout << ;
+  cout << " Введіть a: ";
   cin >> a;
-  cout << ;
+  cout << " Введіть b: ";
   cin >> b;
 
   cout << boolalpha << (a + 1 > abs(b - 2)) << endl;
 
-  cout << "x = " << dec << x <<  << hex << x << endl;
-  cout << "y = " << dec << y <<  << hex << y << endl;
-  cout << "z = " << dec << z <<  << hex << z << endl;
+  cout << "x = " << dec << x << " У шістнадцятковій системі: " << hex << x << endl;
+  cout << "y = " << dec << y << " У шістнадцятковій системі: " << hex << y << endl;
+  cout << "z = " << dec << z << " У шістнадцятковій системі: " << hex << z << endl;
 
   cout << "s = " << s_calculation(x, y, z) << endl;
 }
